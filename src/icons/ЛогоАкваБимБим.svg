@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2A9CFF;}
+	.st1{fill:#74D2FF;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:url(#SVGID_1_);}
+</style>
+<path d="M549.94,100.04"/>
+<path d="M839.43,22"/>
+<g>
+	<polygon class="st0" points="391.48,356.11 490.23,203.97 490.23,223.11 546.66,135.08 580.9,186.11 591.8,162.35 600.27,172.4 
+		691.97,26 723,81.5 723,62.36 782.25,165.22 804.82,127.9 899.8,334.1 910,356.11 	"/>
+	<polygon class="st1" points="459.22,256.69 489.53,210.8 489.53,229.61 545.96,143.09 580.2,193.25 591.1,169.89 599.56,179.77 
+		691.26,35.88 722.3,90.42 722.3,71.61 781.55,172.71 804.12,136.04 851.44,237.01 805.53,189.64 764.62,229.14 722.3,113.46 
+		713.83,121.93 688.44,93.71 616.33,198.11 600.97,192.47 582.63,216.45 550.19,192.47 514.92,243.25 502.22,234.79 	"/>
+	<polygon class="st2" points="660.91,83.5 691.26,35.88 722.3,87.44 722.3,71.61 739.59,101.13 724.41,105.71 682.09,88.78 	"/>
+	<polygon class="st2" points="772.54,157.36 781.55,172.71 804.12,136.04 821.31,172.71 796.93,189.02 768.14,176.24 	"/>
+	<polygon class="st2" points="489.53,229.61 545.96,143.09 564.41,170.13 550.19,192.47 	"/>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="650.7408" y1="354.698" x2="650.7408" y2="707.3782">
+		<stop  offset="0" style="stop-color:#2A9CFF"/>
+		<stop  offset="0.0739" style="stop-color:#2797F6"/>
+		<stop  offset="0.1967" style="stop-color:#2189DC"/>
+		<stop  offset="0.3534" style="stop-color:#1573B3"/>
+		<stop  offset="0.5112" style="stop-color:#085982"/>
+		<stop  offset="0.9664" style="stop-color:#00314C"/>
+	</linearGradient>
+	<polyline class="st3" points="391.48,354.7 393.04,360.3 425.1,475.61 479.65,421 501.41,491.07 533.26,467.56 641.88,707.38 
+		751.92,492.95 804.12,538.09 845.03,435.11 885.94,470.38 910,354.7 	"/>
+</g>
+</svg>

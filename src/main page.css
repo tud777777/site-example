@@ -1,0 +1,580 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    /*position: fixed;*/
+    border: none;
+    border-bottom:2px solid #1C87E4;
+}
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    /*position: fixed;*/
+    border: none;
+    border-bottom:2px solid #1C87E4;
+
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+    width: 385px;
+}
+.logo-icon{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.logo-text{
+    font-family: "Roboto";
+    color:#1C87E4;
+    font-size:20px;
+}
+.btn-catalog{
+    border:none;
+    border-right:2px solid #1C87E4;
+    background-color: white;
+    color:#1C87E4;
+    font-family: "Montserrat";
+    font-size:24px;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.btn-aboutus{
+    border:none;
+    border-right:2px solid #1C87E4;
+    background-color: white;
+    color:#1C87E4;
+    font-family: "Montserrat";
+    font-size:24px;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.btn-login{
+    border:none;
+    background-color: white;
+    color:#1C87E4;
+    font-family: "Montserrat";
+    font-size:24px;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.btn-home{
+    border:none;
+    border-right:2px solid #1C87E4;
+    background-color: white;
+    color:#1C87E4;
+    font-family: "Montserrat";
+    font-size:24px;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.btn-catalog:hover{
+    color: #2c5e8a;
+}
+.btn-aboutus:hover{
+    color: #2c5e8a;
+}
+.btn-login:hover{
+    color: #2c5e8a;
+}
+.btn-home:hover{
+    color: #2c5e8a;
+}
+.city-text{
+    color:#1C87E4;
+    font-family: "Montserrat";
+    font-size:24px;
+    width: 143px;
+}
+.city{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 25px;
+    width: 360px;
+}
+#city-select{
+    border:1px solid #1C87E4;
+    background-color: white;
+    font-family: "Montserrat";
+    color:#1C87E4;
+    cursor: pointer;
+    width: 143px;
+}
+.slider{
+    margin-top: 20px;
+}
+.slider-img{
+    border-radius: 5px;
+}
+.body{
+    
+}
+
+.choose-catalog{
+    display: flex;
+    width: 1850px;
+    margin:45px auto 25px auto;
+    font-size: 24px;
+    font-weight:bold;
+    color: #1C87E4;
+    justify-content: space-between;
+}
+.bottled-water{
+    background-image:linear-gradient(to top, #CCE7FF 0%, transparent 50%), url(img/oleolavperedspartakmoskva.jpg);
+    width: 600px;
+    height: 200px;
+    font-family: "Montserrat";
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.coolers{
+    background-image:linear-gradient(to top, #CCE7FF 0%, transparent 50%), url(img/кулер.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 200px;
+    font-family: "Montserrat";
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.services{
+    background-image:linear-gradient(to top, #CCE7FF 0%, transparent 50%),  url(img/мужик.jpg);
+    background-repeat: no-repeat;
+    font-family: "Montserrat";
+    height: 200px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bottled-water:hover{
+    background-image:linear-gradient(to top, #CCE7FF 0%, transparent 100%), url(img/oleolavperedspartakmoskva.jpg);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 200px;
+    font-family: "Montserrat";
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.coolers:hover{
+    background-image:linear-gradient(to top, #CCE7FF 0%, transparent 100%), url(img/кулер.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 200px;
+    font-family: "Montserrat";
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.services:hover{
+    background-image:linear-gradient(to top, #CCE7FF 0%, transparent 100%),  url(img/мужик.jpg);
+    background-repeat: no-repeat;
+    font-family: "Montserrat";
+    height: 200px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.discounts-and-promotion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 550px;
+}
+.discount-title{
+    display: flex;
+    justify-content: center;
+    color: #146FBD;
+    font-family:'Roboto';
+}
+.discount-card{
+    width: 400px;
+    height: 450px;
+    border: solid 0.5px #1C87E4;
+}
+.discount-card-in{
+    display: flex;
+    justify-content: center;
+}
+.card-promotion{
+    position: absolute;
+    font-family:'Roboto';
+    font-size:16px;
+    border:solid 8px #e63225;
+    color: #fff;
+    background-color: #e63225;
+    text-align: center;
+    width: 74px;
+}
+.card-img{
+    width: 375px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+}
+.card-image{
+    display: grid;
+    height: 275px;
+}
+.card-text{ 
+}
+.card-name{
+    font-family:'Montserrat';
+    color: #0E5B9D;
+    font-size:24px;
+    cursor: pointer;
+}
+.card-name:hover{
+    color: #4191d6;
+}
+.card-volume{
+    font-family:'Montserrat';
+    color: #1C87E4;
+    font-size:16px;
+}
+.card-price{
+}
+.card-price-text{
+font-family: "Montserrat";
+color: #1C87E4;
+font-size: 22px;
+
+}
+.card-btn{
+    border:2px solid  #1C87E4;
+    background-color: white;
+    color:#1C87E4;
+    font-family: "Montserrat";
+    font-size:24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-btn:hover{
+    background-color:#1C87E4;
+    color:white;
+}
+/*.card-btn:active{
+    border:2px solid  #115b9b;
+    background-color:#115b9b;
+    color:white;
+}*/
+.card-btn:active{
+    border:2px solid  #1C87E4;
+    background-color:#fff;
+    color:#1C87E4;
+}
+.cards{
+    display: flex;
+    justify-content:center;
+}
+.card-service{
+    display: flex;
+    background-color:#e4f2ff;
+    width: 790px;
+    height: 350px;
+    border-radius: 5px;
+
+}
+
+.img-service{
+
+}
+.cards-title-service{
+    font-family: "Roboto";
+    color: #146FBD;
+}
+.title-service{
+    font-size: 28px;
+    font-family: 'Roboto';
+    color: #083d6b;
+    font-weight:500;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.title-service:hover{
+    color: #4191d6;
+    
+}
+.text-service{
+    font-size: 18px;
+    font-family: 'Ubuntu';
+    color: #1C87E4;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 55%;
+    text-align: center;
+}
+.text-service1{
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.text-service2{
+    cursor: pointer;
+}
+.text-service1:hover{
+    color: #7cc2ff;
+}
+.text-service2:hover{
+    color: #7cc2ff;
+} 
+.cards-service{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    height: 830px;
+}
+.card-block-1{
+    display: flex;
+    flex-direction: row;
+    width: 87%;
+    justify-content: space-around;
+}
+.card-block-2{
+    display: flex;
+    flex-direction: row;
+    width: 87%;
+    justify-content: space-around;
+}
+.img-src{
+    cursor: pointer;
+}
+.news-title{
+    font-family: "Roboto";
+    color: #146FBD;
+}
+.news{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.news-block{
+    width:20%;
+    background-color:#e4f2ff;
+    height: 350px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+}
+.news-title-text{
+    font-family: "Roboto";
+    color: #146FBD;
+    font-size: 20px;
+    cursor: pointer;
+}
+.news-title-text:hover{
+    color: #4191d6;
+}
+.news-date{
+    font-family: "Roboto";
+    color: rgb(68, 149, 255);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.news-cards-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.news-img{
+    cursor: pointer;
+}
+.footer{
+    background-color: #115C9B;
+    width: 100%;
+    height: 500px;
+}
+.map{
+    border-radius: 5px;
+}
+.map-title{
+    font-family: "Roboto";
+    color: #fff;
+}
+.contact-title{
+    font-family: "Roboto";
+    color: #fff;
+}
+.footer-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-map{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-contact{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: "Ubuntu";
+    font-size: 18px;
+}
+.contact-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.log-in-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    .log-in-input{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    #email{
+        font-size: 22px;
+        border-radius: 7px;
+        border: 1px solid #6c6c6c;
+        margin-bottom: 20px;
+        height: 30px;
+    }
+    #email:focus{
+        color: #1C87E4;
+    }
+    #password{
+        font-size: 22px;
+        border-radius: 7px;
+        border: 1px solid #6c6c6c;
+        margin-bottom: 20px;
+        height: 30px;
+    }
+    #password:focus{
+        color: #1C87E4;
+    }
+    .log-in-window{
+        width: 375px;
+        height: 375px;
+        border-radius: 15px;
+        margin-left: 40%;
+        background-color: #fff;
+        position: fixed;
+        margin-top: 250px;
+        z-index: 2;
+    }
+    .log-in-bg{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        background-color: #6c6c6c;
+        z-index: 1;
+    }
+    .log-in-svg{
+        position: absolute;
+        left:325px;
+        top: 20px;
+        cursor: pointer;
+    }
+    .log-in-svg-2{
+        position: absolute;
+        top: 10px;
+        cursor: pointer;
+    }
+    .log-in-title{
+        font-family: "Roboto";
+        color:#1C87E4;
+    }
+    .log-in-label{
+        font-family: 'Montserrat';
+        font-size: 24px;
+        color: #1C87E4;
+        
+    }
+    ::placeholder{
+        color: #7dabd4;
+        font-family: 'Montserrat';
+        font-size: 18px;
+    }
+    .log-in-btn{
+        background-color: #1C87E4;
+        color:#ffffff;
+        font-family: "Montserrat";
+        font-size:24px;
+        cursor: pointer;
+        border: none;
+        border-radius: 15px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 150px;
+    }
+    .log-in-sign-in{
+        font-family: "Montserrat";
+        color: #1C87E4;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .log-in-sign-in:hover{
+        text-decoration: underline;
+    }
+    .log-in-input-input{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sign-in-window{
+        border-radius: 15px;
+        width: 375px;
+        position: fixed;
+        z-index: 2;
+        background-color: #fff;
+        margin-top: 250px;
+        margin-left: 40%; 
+        height: 440px;
+    }
+    .displaynone{
+        display: none;
+    }
+    .sign-in-btn{
+        background-color: #1C87E4;
+        color:#ffffff;
+        font-family: "Montserrat";
+        font-size:24px;
+        cursor: pointer;
+        border: none;
+        border-radius: 15px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 280px;
+    }

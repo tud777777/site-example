@@ -1,0 +1,495 @@
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="catalog.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Montserrat|Ubuntu">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaBimBim - лучшая вода</title>
+</head>
+
+<body>
+    <div class="log-in-window displaynone">
+        <svg class="log-in-svg" fill="#1c87e4" opacity="0.65"version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="0 0 94.49 94.49" xml:space="preserve" transform="rotate(45)" stroke="#1c87e4"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M92.49,35.284H59.206V2c0-1.104-0.896-2-2-2H37.284c-1.104,0-2,0.896-2,2v33.284H2c-1.104,0-2,0.896-2,2v19.922 c0,1.104,0.896,2,2,2h33.284V92.49c0,1.104,0.896,2,2,2h19.922c1.104,0,2-0.896,2-2V59.206H92.49c1.104,0,2-0.896,2-2V37.284 C94.49,36.18,93.596,35.284,92.49,35.284z"></path> </g> </g></svg>
+        <form class="log-in-form">
+            <h1 class="log-in-title">Вход</h1>
+            <div class="log-in-input">
+                <div class="log-in-input-input">
+                    <label for="email" class="log-in-label">Почта</label>
+                    <input type='email' id="email" placeholder="email">
+                    <label for="password" class="log-in-label">Пароль</label>
+                    <input type='password' id="password" placeholder="password">
+                </div>
+                <button class="log-in-btn">Войти</button>
+                <a class="log-in-sign-in">Нет аккаунта? Зарегестрироваться!</a>
+            </div>
+        </form>
+    </div>
+    <div class="sign-in-window displaynone">
+        <svg class="log-in-svg-2" fill="#1c87e4" opacity="0.65" width="55px" height="55px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="#1c87e4" stroke-width="2"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M26.025 14.496l-14.286-.001 6.366-6.366L15.979 6 5.975 16.003 15.971 26l2.129-2.129-6.367-6.366h14.29z"></path></g></svg>
+        <svg class="log-in-svg" fill="#1c87e4" opacity="0.65"version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="0 0 94.49 94.49" xml:space="preserve" transform="rotate(45)" stroke="#1c87e4"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M92.49,35.284H59.206V2c0-1.104-0.896-2-2-2H37.284c-1.104,0-2,0.896-2,2v33.284H2c-1.104,0-2,0.896-2,2v19.922 c0,1.104,0.896,2,2,2h33.284V92.49c0,1.104,0.896,2,2,2h19.922c1.104,0,2-0.896,2-2V59.206H92.49c1.104,0,2-0.896,2-2V37.284 C94.49,36.18,93.596,35.284,92.49,35.284z"></path> </g> </g></svg>
+        <form class="log-in-form">
+            <h1 class="log-in-title">Регистрация</h1>
+            <div class="log-in-input">
+                <div class="log-in-input-input">
+                    <label for="email" class="log-in-label">Почта</label>
+                    <input type='email' id="email" placeholder="email">
+                    <label for="password" class="log-in-label">Пароль</label>
+                    <input type='password' id="password" placeholder="password">
+                    <label for="password" class="log-in-label">Подтвердите пароль</label>
+                    <input type='password' id="password" placeholder="confirm password">
+                </div>
+                <button class="sign-in-btn">Зарегестрироваться</button>
+            </div>
+        </form>
+    </div>
+    <div class="log-in-bg displaynone">
+    </div>
+    <header class="header">
+        <div class="logo-div">
+            <img class="logo-icon" src="icons/ЛогоАкваБимБим.svg">
+            <div class="logo-text">
+                <h1>AquaBimBim</h1>
+            </div>
+        </div>
+        <div class="btn-menu">
+            <a href="./main page.html"><button class="btn-home">
+                Главная страница
+            </button></a>
+            <a href="./catalog.html"><button class="btn-catalog">
+                Каталог
+            </button></a>
+            <a href="./about us.html"><button class="btn-aboutus">
+                О нас
+            </button></a>
+            <a><button class="btn-login">
+                Войти
+            </button></a>
+        </div>
+        <form class="city">
+            <label class="city-text" for="city-select">Ваш город</label>
+            <select name="city" id="city-select">
+              <option value="moscow">Москва</option>
+              <option value="petersburg">Санкт-Петербург</option>
+              <option value="tambov">Тамбов</option>
+              <option value="sevastopol">Севастополь</option>
+              <option value="mcaykop">Майкоп</option>
+            </select>
+          </form>
+    </header>
+
+    <div class="search-menu">
+        <div class="search-menu-btn">
+            <button class="search-btn">Бутылированая вода</button>
+            <button class="search-btn">Кулеры</button>
+            <button class="search-btn">Услуги</button>
+        </div>
+        <div class="search-submit">
+            <input class="search-submit-input" type="search">
+            <button class="search-submit-btn" type="submit">
+                <img src="icons/поиск.svg" alt="Поиск" width="25px" height="25px" fill="#fff">
+            </button>
+        </div>
+    </div>
+
+    <div class="catalog">
+        <h1 class="catalog-title">Каталог</h1>
+        <div class="cards">
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount-card">
+                <div class="card-promotion">Акция</div>
+                <div class="discount-card-in">
+                    <div class="discount-card-in-in">
+                        <div class="card-image">
+                            <img class="card-img" src="img/evian.jpg" alt="Фото">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-name">
+                                <a>Вода Evian премиальная 24шт</a>
+                            </div>
+                            <div class="card-volume">
+                                <a>0.33л</a>
+                            </div>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-text">Цена:6000₽</p>
+                            <button class="card-btn">В корзину!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="next">
+    <div class="next-btns">
+        <button class="next-btn-press">1</button>
+        <button class="next-btn">2</button>
+        <button class="next-btn">3</button>
+        <button class="next-btn">4</button>
+        <button class="next-btn">5</button>
+        <button class="next-btn-next">Дальше</button>
+    </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-block">
+            <div class="footer-map">
+                <h1 class="map-title">Мы на карте</h1>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.767710157842!2d37.54427628614576!3d55.888074963873585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b537629c6a0b21%3A0x2ea681db60e0bcd3!2z0J_QvtC70LjRgtC10YXQvdC40YfQtdGB0LrQuNC5INCa0L7Qu9C70LXQtNC2IOKEliA4!5e0!3m2!1sru!2sru!4v1708178281263!5m2!1sru!2sru" width="620" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-contact">
+                <h1 class="contact-title">Наши контакты</h1>
+                <p>Контактный номер - +7-666-777-88-99</p>
+                <p>Электронная почта - aquabimbim@pk-8.ru</p>
+                <div class="contact-icons">
+                    <img src="icons/вк.png" alt="Vkontakte" width="40px" height="40px">
+                    <img src="icons/инста.png" alt="Instagramm" width="80px" height="50px">
+                    <img src="icons/тг.png" alt="Telegramm" width="45px" height="45px">
+                </div>  
+            </div>
+        </div>
+    </footer>
+    <script src="signin login.js"></script>
+</body>
+</html>
+

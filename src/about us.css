@@ -1,0 +1,394 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    /*position: fixed;*/
+    border: none;
+    border-bottom:2px solid #1C87E4;
+
+}
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    /*position: fixed;*/
+    border: none;
+    border-bottom:2px solid #1C87E4;
+
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+    width: 385px;
+}
+.logo-icon{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.logo-text{
+    font-family: "Roboto";
+    color:#1C87E4;
+    font-size:20px;
+}
+.btn-catalog{
+    border:none;
+    border-right:2px solid #1C87E4;
+    background-color: white;
+    color:#1C87E4;
+    font-family: "Montserrat";
+    font-size:24px;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.btn-aboutus{
+    border:none;
+    border-right:2px solid #1C87E4;
+    background-color: white;
+    color:#1C87E4;
+    font-family: "Montserrat";
+    font-size:24px;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.btn-login{
+    border:none;
+    background-color: white;
+    color:#1C87E4;
+    font-family: "Montserrat";
+    font-size:24px;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.btn-home{
+    border:none;
+    border-right:2px solid #1C87E4;
+    background-color: white;
+    color:#1C87E4;
+    font-family: "Montserrat";
+    font-size:24px;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.btn-catalog:hover{
+    color: #2c5e8a;
+}
+.btn-aboutus:hover{
+    color: #2c5e8a;
+}
+.btn-login:hover{
+    color: #2c5e8a;
+}
+.btn-home:hover{
+    color: #2c5e8a;
+}
+.city-text{
+    color:#1C87E4;
+    font-family: "Montserrat";
+    font-size:24px;
+    width: 143px;
+}
+.city{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 25px;
+    width: 360px;
+}
+#city-select{
+    border:1px solid #1C87E4;
+    background-color: white;
+    font-family: "Montserrat";
+    color:#1C87E4;
+    cursor: pointer;
+    width: 143px;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutus-title{
+    font-family: "Roboto";
+    color:#115C9B;
+}
+/*.circle{
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 2px solid #1C87E4;
+    border-radius: 100%;
+    display: none;
+}*/
+.aboutus-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutus-card{
+    width: 200px;
+    height: 270px;
+    background-color: #fff;
+    border: 2px solid #1C87E4;
+    border-radius:52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.aboutus-card-text{
+    color: #1C87E4;
+    font-family: "Montserrat";
+}
+.aboutus-card-text-p{
+    margin: 0;
+}
+.read-more{
+    background-color: #fff;
+    border: none;
+    color: #1C87E4;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Ubuntu";
+}
+.read-more:hover{
+    color: #115C9B;
+}
+.aboutus-whyus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.aboutus-whyus-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #1C87E4;
+    width: 75%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.aboutus-whyus-info{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.aboutus-whyus-text{
+    color: #115C9B;
+    font-family: "Montserrat";
+    font-size: 22px;
+}
+.fast-delivery{
+    font-weight: bold;
+}
+
+.aboutus-cert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.aboutus-cert-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:80%;
+}
+.aboutus-cert-title{
+    font-family: 'Roboto';
+    color: #115C9B;
+}
+.aboutus-cert-text{
+    font-family: 'Montserrat';
+    color: #1C87E4;
+}
+.aboutus-cert-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 470px;
+}
+.footer{
+    background-color: #115C9B;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+.map{
+    border-radius: 5px;
+}
+.map-title{
+    font-family: "Roboto";
+    color: #fff;
+}
+.contact-title{
+    font-family: "Roboto";
+    color: #fff;
+}
+.footer-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-map{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-contact{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: "Ubuntu";
+    font-size: 18px;
+}
+.contact-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.log-in-form{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.log-in-input{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+#email{
+    font-size: 22px;
+    border-radius: 7px;
+    border: 1px solid #6c6c6c;
+    margin-bottom: 20px;
+    height: 30px;
+}
+#email:focus{
+    color: #1C87E4;
+}
+#password{
+    font-size: 22px;
+    border-radius: 7px;
+    border: 1px solid #6c6c6c;
+    margin-bottom: 20px;
+    height: 30px;
+}
+#password:focus{
+    color: #1C87E4;
+}
+.log-in-window{
+    width: 375px;
+    height: 375px;
+    border-radius: 15px;
+    margin-left: 40%;
+    background-color: #fff;
+    position: fixed;
+    margin-top: 250px;
+    z-index: 2;
+}
+.log-in-bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: #6c6c6c;
+    z-index: 1;
+}
+.log-in-svg{
+    position: absolute;
+    left:325px;
+    top: 20px;
+    cursor: pointer;
+}
+.log-in-svg-2{
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+.log-in-title{
+    font-family: "Roboto";
+    color:#1C87E4;
+}
+.log-in-label{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #1C87E4;
+    
+}
+::placeholder{
+    color: #7dabd4;
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+.log-in-btn{
+    background-color: #1C87E4;
+    color:#ffffff;
+    font-family: "Montserrat";
+    font-size:24px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 150px;
+}
+.log-in-sign-in{
+    font-family: "Montserrat";
+    color: #1C87E4;
+    font-size: 15px;
+    cursor: pointer;
+}
+.log-in-sign-in:hover{
+    text-decoration: underline;
+}
+.log-in-input-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-window{
+    border-radius: 15px;
+    width: 375px;
+    position: fixed;
+    z-index: 2;
+    background-color: #fff;
+    margin-top: 250px;
+    margin-left: 40%; 
+    height: 440px;
+}
+.displaynone{
+    display: none;
+}
+.sign-in-btn{
+    background-color: #1C87E4;
+    color:#ffffff;
+    font-family: "Montserrat";
+    font-size:24px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 280px;
+}
